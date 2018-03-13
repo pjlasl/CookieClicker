@@ -1,13 +1,15 @@
 body {
     font-family: "Helvetica Neue", sans-serif;
-    background-color: #fbfbfb;
+    background-color: #e3e3e3;
+    margin: 0;
 }
 
 h1 {
     display: block;
     text-align: left;
     color: #ffbd2d;
-    margin-left: 10px;
+    margin: 20px 15px ;
+
 }
 input {
     font-family: "Helvetica Neue", sans-serif;
@@ -47,6 +49,9 @@ input.txt {
     display: block;
     margin: 20px;
 }
+#Upgrades {
+    margin: 20px;
+}
 #Cookie {
     width: 148px;
     height: 148px;
@@ -66,25 +71,25 @@ input.txt {
     color: red;
     height: 30px;
 }
-
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #de8542;
-
+    background-color: #333;
 }
 .navigation li {
     float: left;
 }
-.navigation a, .navigation a:visited{
+.navigation li a {
     display: block;
+    color: #d67e48;
+    padding: 28px 16px;
     text-decoration: none;
-    padding: 26px 1px 26px 16px;
-    color: #ac3945;
 }
-.navigation a:hover {
-    color: #f1b848;
-    text-decoration: none;
+.navigation li a:hover:not(.active) {
+    background-color: #f1b848;
+}
+.active {
+    background-color: #ffbd2d;
 }
