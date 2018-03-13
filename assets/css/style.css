@@ -3,36 +3,12 @@ body {
     background-color: #fbfbfb;
 }
 
-h1{
+h1 {
     display: block;
     text-align: left;
-    color: #ce9729;
+    color: #ffbd2d;
     margin-left: 10px;
 }
-#content{
-    display: block;
-    margin: 20px;
-}
-#Cookie{
-    width: 148px;
-    height: 148px;
-    background-image: url('../images/cookie.png');
-    cursor: pointer;
-    border-radius: 70%;
-    background-size: 148px;
-    background-repeat: no-repeat;
-}
-#DisplayCookie{
-    display: block;
-    text-align: left;
-    height: 100px;
-
-}
-#Warnings{
-    color: red;
-    height: 30px;
-}
-
 input {
     font-family: "Helvetica Neue", sans-serif;
 }
@@ -65,4 +41,50 @@ input.txt {
     border: 1px solid #a3a3a3;
     border-radius: 2px;
     color: #a3a3a3;
+}
+
+#content {
+    display: block;
+    margin: 20px;
+}
+#Cookie {
+    width: 148px;
+    height: 148px;
+    background-image: url('../images/cookie.png');
+    cursor: pointer;
+    border-radius: 70%;
+    background-size: 148px;
+    background-repeat: no-repeat;
+}
+#DisplayCookie {
+    display: block;
+    text-align: left;
+    height: 100px;
+
+}
+#Warnings {
+    color: red;
+    height: 30px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #de8542;
+
+}
+.navigation li {
+    float: left;
+}
+.navigation a, .navigation a:visited{
+    display: block;
+    text-decoration: none;
+    padding: 26px 1px 26px 16px;
+    color: #ac3945;
+}
+.navigation a:hover {
+    color: #f1b848;
+    text-decoration: none;
 }
