@@ -16,7 +16,7 @@ h1{
 #Cookie{
     width: 148px;
     height: 148px;
-    background-image: url('cookie.png');
+    background-image: url('../images/cookie.png');
     cursor: pointer;
     border-radius: 70%;
     background-size: 148px;
