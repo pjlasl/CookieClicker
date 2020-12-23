@@ -11,7 +11,15 @@
 </head>
 <body onload="startingFunction()">
   <header>
-    <h1 id="BakeryName">Bakery</h1>
+    <nav class="navigation">
+
+        <ul>
+            <li><h1 id="BakeryName">Bakery</h1></li>
+            <li class="active"><a href="/">Bakery</a></li>
+            <li><a href="upgrades.html">Upgrades</a></li>
+            <li><a href="scoreboard.html">scoreboard</a></li>
+        </ul>
+    </nav>
   </header>
   <div id="content">
     <form>
@@ -22,7 +30,7 @@
     <h2>Click the Cookie</h2>
     <div id="Cookie" onclick="cookieClick()"></div>
     <div id="DisplayCookie">
-      <p id="CPS">per second: 0</p>
+      <p>per second: </p><span id="cps">0</span>
       <h2><strong id="cookieAmount">0</strong> Cookies</h2>
     </div>
   </div>
